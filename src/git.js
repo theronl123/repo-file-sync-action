@@ -107,7 +107,7 @@ class Git {
 		core.debug(`Creating PR Branch ${ newBranch }`)
 
 		await execCmd(
-			`git checkout -b "${ newBranch }"`,
+			`git checkout -b asd "${ newBranch }"`,
 			this.workingDir
 		)
 
